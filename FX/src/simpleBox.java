@@ -105,16 +105,9 @@ public class Loan {
 		Loan loan = new Loan(interest, year, loanAmount);
 		
 		tfMonthlyPayment.setText(String.format("$%.2f", loan.getMonthlyPayment()));
-		tfTotalPayment.setText(String.format("$%.2f", loan.getTotalPayment()));
-		
-		
-		
-		
+		tfTotalPayment.setText(String.format("$%.2f", loan.getTotalPayment()))	
 		
 	}
-	
-	
-	
 	
 	public static void main(String[] args){
 		Application.launch(args);
